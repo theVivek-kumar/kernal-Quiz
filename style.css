@@ -1,0 +1,27 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+:root{
+   --Box-shadow:rgb(221, 221, 221)
+}
+.nav-bar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px  var(--Box-shadow) ;
+    height: 3rem;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.main-container{
+    width: 90%;
+    height: 20rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px  var(--Box-shadow) ;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 1rem;
+}
