@@ -40,13 +40,38 @@
     margin: 1rem
 }
 .img{
-   border-radius: 1rem 0 0 1rem; 
+    border-radius: 1rem 0 0 1rem; 
     height: auto;
+    width: 33.33%;
+    overflow: hidden;
 }
 .img2{
+    width: 33.33%;
+    overflow: hidden;
+    border-radius: 0rem 1rem 1rem 0rem; 
+    
+}
+.container-img1{
     display: flex;
+    width: 33.33%;
+    overflow: hidden;
+    transform: scale(1);
+}
+
+img:hover{
+    width: 60%;
+    height: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .container-img{
     display: flex;
+    width: 100%; 
     overflow: hidden;
+    transition: transform 1sec;
 }
+.container-img1:hover img{
+transform: width(1.1);
+width: 100%;
+border-radius: 0rem 1rem 1rem 0rem; 
+} 
+
