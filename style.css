@@ -1,7 +1,7 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 
 :root{
-   --Box-shadow:rgb(221, 221, 221)
+--Box-shadow:rgb(221, 221, 221)
 }
 .nav-bar-container{
     display: flex;
@@ -26,7 +26,7 @@
     font-size: .8rem;
 }
 .main-container{
-    width: 90%;
+    width: 95%;
     height: 20rem;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 15px  var(--Box-shadow) ;
@@ -34,4 +34,19 @@
     justify-content: center;
     margin: auto;
     border-radius: 1rem;
+}
+.heading{
+    font-size: 1.5rem;
+    margin: 1rem
+}
+.img{
+   border-radius: 1rem 0 0 1rem; 
+    height: auto;
+}
+.img2{
+    display: flex;
+}
+.container-img{
+    display: flex;
+    overflow: hidden;
 }
